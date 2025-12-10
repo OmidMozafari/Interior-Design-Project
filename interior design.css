@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 4143px;
+    font-family: "poppins", sans-serif;
+}
+#container{
+    margin-left: 22%;
+    padding-left: 50px;
+    padding-right: 55px;
+}
+header h1{
+    font-size: 64px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+header h2{
+    font-size: 48px;
+    color: #F44336;
+}
+header span{
+    background-color:#F44336 ;
+    border: 5px solid red;
+    border-radius:4px ;
+    width: 60px;
+    display: inline-block;
+    margin: 20px 0px;
+
+}
+nav{
+    background-color: #F44336;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+    padding: 0px 20px 0px 30px;
+    top: 0;
+    left: 0;
+
+    padding-top: 100px;
+}
+.company-name{
+    margin-bottom: 90px;
+}
+.nav-contents a{
+    line-height: 45px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-contents a:hover{
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+#images{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 100%;
+}
+#images img {
+    width: 465px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+#images .middle-row-img{
+    height: 250px;
+}
+.section-texts h1{
+    color: #F44336;
+    font-size: 48px;
+    margin: 50px 0px 20px 0px;
+}
+.section-texts span{
+    background-color:#F44336 ;
+    border: 5px solid red;
+    border-radius:4px ;
+    width: 60px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.section-texts #first-para{
+    padding-bottom: 20px;
+}
+.section-texts #second-para{
+    margin-bottom: 90px;
+}
+.section-texts #third-para{
+    padding-bottom: 20px;
+}
+.section-texts #fourth-para{
+    margin-bottom:20px;
+}
+.section-texts h4{
+    margin-bottom: 20px;
+}
+#cards{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+
+}
+.cards{
+    background-color: rgb(117, 115, 115);
+    width: 100%;
+    
+}
+.cards h2, p{
+    margin-bottom: 20px;
+}
+.imgs{
+    width: 305px;
+    margin-bottom: 10px;
+}
+
+#Packages h1{
+    color: #F44336;
+    font-size: 48px;
+    margin: 50px 0px 20px 0px;
+}
+#Packages span{
+        background-color:#F44336 ;
+    border: 5px solid red;
+    border-radius:4px ;
+    width: 60px;
+    display: inline-block;
+    margin: 20px 0px;
+}
+#Packages p{
+    margin-bottom: 20px;
+}
+#offers{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+#basic-offer{
+    width: 45%;
+}
+#basic-offer .Basic{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    padding: 30px 0px;
+}
+#pro-offer{
+    width: 45%;
+}
+#pro-offer .Pro{
+     background-color:#F44336;
+    color: white;
+    padding: 30px 0px;
+}
+
