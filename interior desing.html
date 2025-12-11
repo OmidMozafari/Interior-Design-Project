@@ -19,12 +19,12 @@
     <nav>
         <h2>Company</h2>
         <h2 class="company-name">Name</h2>
-        <h3 class="nav-contents"><a href="">Home</a></h3>
-        <h3 class="nav-contents"><a href="">Showcase</a></h3>
-        <h3 class="nav-contents"><a href="">Services</a></h3>
-        <h3 class="nav-contents"><a href="">Designers</a></h3>
-        <h3 class="nav-contents"><a href="">Packages</a></h3>
-        <h3 class="nav-contents"><a href="">Contacts</a></h3>
+        <h3 class="nav-contents"><a href="#">Home</a></h3>
+        <h3 class="nav-contents"><a href="#">Showcase</a></h3>
+        <h3 class="nav-contents"><a href="#">Services</a></h3>
+        <h3 class="nav-contents"><a href="#">Designers</a></h3>
+        <h3 class="nav-contents"><a href="#">Packages</a></h3>
+        <h3 class="nav-contents"><a href="#">Contacts</a></h3>
     </nav>
     <section id="images">
         <img src="kitchenconcrete.jpg" alt="">
@@ -86,7 +86,10 @@
                 <h2 class="Money">$ 199</h2>
                 <p>per room</p>
             </div> 
-            <button>Sign up</button>
+            <div class="buttons" >
+                <button id="basic-button">Sign up</button>
+            </div>
+            
         </div>
         <div id="pro-offer">
             <h2 class="Pro">Pro</h2>
@@ -96,12 +99,38 @@
             <h3>50% furniture discount</h3>
             <h3>Great deals</h3>
             <div id="pro-cost">
-                <h2 class="Money">$ 244 </h2>
-                <p>per room</p>
-            <button>Sign up</button>
+            <h2 class="Money">$ 244 </h2>
+            <p>per room</p>
+        </div>
+        <div class="buttons">
+            <button id="pro-button">Sign up</button>
+        </div>
+            
         </div>
     </section>
+    <section class="section-texts">
+        <h1>Contacts</h1>
+        <span></span>
+        <div class="contacts-contents">
+            <h4>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</h4>
+            <form action="#">
+                <label for="Name">Name</label>
+                <input type="text" id="name">
+                <label for="Email">Email</label>
+                <input type="email" id="email">
+                <label for="Message"> Message</label>
+                <input type="text"  id="message">
+                <button>Send Message</button>
+            </form>
+        </div>
+        
+    </section>
+
     </div>
+
+    <footer>
+           <h4>Powered by Omid Mozafari</h4> 
+        </footer>
   
    
 </body>

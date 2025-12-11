@@ -105,7 +105,6 @@ nav{
 }
 #cards{
     width: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,15 +112,17 @@ nav{
 
 }
 .cards{
-    background-color: rgb(117, 115, 115);
-    width: 100%;
-    
+    background-color: rgb(224, 221, 221);
+    width: 30%;
+    border-radius: 5px;
 }
 .cards h2, p{
     margin-bottom: 20px;
 }
-.imgs{
-    width: 305px;
+.imgs {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
@@ -131,7 +132,7 @@ nav{
     margin: 50px 0px 20px 0px;
 }
 #Packages span{
-        background-color:#F44336 ;
+    background-color:#F44336 ;
     border: 5px solid red;
     border-radius:4px ;
     width: 60px;
@@ -145,8 +146,9 @@ nav{
     display: flex;
     flex-direction:row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
+    margin-bottom: 120px;
 }
 #basic-offer{
     width: 45%;
@@ -156,6 +158,83 @@ nav{
     color: white;
     padding: 30px 0px;
 }
+#basic-offer h3{
+    background-color: rgb(224, 221, 221);
+    padding: 25px;
+    border-bottom: 1px solid rgb(204, 200, 200);
+    font-weight: 400;
+}
+
+#basic-cost{
+    background-color: rgb(224, 221, 221);
+     padding: 25px;
+     border-bottom: 1px solid rgb(204, 200, 200);
+     line-height: 40px;
+}
+#basic-cost h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+#basic-cost p{
+    font-weight: 200;
+}
+#offers .buttons{
+   background-color: rgb(224, 221, 221);
+   padding: 25px;
+}
+#offers .buttons #basic-button{
+    background-color: white;
+    border:none;
+    font-size: 18px;
+    width: 28%;
+    height: 9vh;
+}
+#offers .buttons #pro-button{
+    background-color: tomato;
+    color: white;
+    border:none;
+    font-size: 18px;
+    width: 28%;
+    height: 9vh;
+}
+#offers .buttons #basic-button:hover{
+    background-color: black;
+    color: white;
+    border:none;
+    font-size: 18px;
+    width: 28%;
+    height: 9vh;
+    cursor: pointer;
+}
+
+#pro-offer h3{
+    background-color: rgb(224, 221, 221);
+    padding: 25px;
+    border-bottom: 1px solid rgb(204, 200, 200);
+    font-weight: 400;
+}
+#offers .buttons #pro-button:hover{
+    background-color: black;
+    color: white;
+    border:none;
+    font-size: 18px;
+    width: 28%;
+    height: 9vh;
+    cursor: pointer;
+}
+#pro-cost{
+    background-color: rgb(224, 221, 221);
+     padding: 25px;
+     border-bottom: 1px solid rgb(204, 200, 200);
+     line-height: 40px;
+}
+#pro-cost h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+#pro-cost p{
+    font-weight: 200;
+}
 #pro-offer{
     width: 45%;
 }
@@ -164,4 +243,41 @@ nav{
     color: white;
     padding: 30px 0px;
 }
-
+.contacts-contents form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.contacts-contents form input{
+    height: 40px;
+    border: 1px solid rgb(226, 216, 216);
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.contacts-contents form button{
+    background-color: tomato;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 90px;
+}
+.contacts-contents form button:hover{
+    background-color: rgb(221, 218, 217);
+    color: black;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(236, 230, 230);
+    text-align: right;
+    justify-content: center;
+}
